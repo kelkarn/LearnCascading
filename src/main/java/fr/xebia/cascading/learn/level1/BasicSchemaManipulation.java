@@ -27,7 +27,7 @@ public class BasicSchemaManipulation {
 	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch09s03.html
 	 */
 	public static FlowDef discardField(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
-		return null;
+		return null;   // nkelkar --comment modify the return statement
 	}
 	
 	/**
